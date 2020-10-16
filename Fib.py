@@ -8,14 +8,11 @@ n2 = 1
 n0 = n1 + n2
 sums = 0
 
-while n0 < 4000000:
-    for i in range(1, 10, n0):
-        n0 = n1 + n2
-        n1 = n2
-        n2 = n0
-        print(n1)
-        if n1 % 2 == 0:
-            sums += n1 
-
-
+while n0 <= 4000000:
+    n0 = n1 + n2
+    n1 = n2
+    n2 = n0
+    if n1 % 2 == 0:
+        sums += n1 
 print(sums)
+
