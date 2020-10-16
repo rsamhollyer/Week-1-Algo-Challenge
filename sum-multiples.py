@@ -7,4 +7,4 @@ output = 0
 for i in numbers:
     if i % 3 == 0 or i % 5 == 0:
         output += i
-    print(output)
+print(output)

@@ -4,7 +4,6 @@
 # For numbers which are multiples of both three and five print "FizzBuzz".
 #Link to leetcode: https://leetcode.com/problems/fizz-buzz/
 
-import random
 numbers = range(1,101)
 
 for i in numbers:
