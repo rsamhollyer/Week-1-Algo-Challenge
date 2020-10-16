@@ -7,12 +7,13 @@ n1 = 0
 n2 = 1
 n0 = n1 + n2
 sums = 0
-
+fib_list = []
 while n0 <= 4000000:
     n0 = n1 + n2
     n1 = n2
     n2 = n0
     if n1 % 2 == 0:
+        fib_list.append(n1)
         sums += n1 
 print(sums)
-
+print(fib_list)
