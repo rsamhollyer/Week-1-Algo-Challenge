@@ -16,6 +16,7 @@ function campusCup(arr) {
 	for (let key in newObj) {
 		newObj[key] = Math.floor(newObj[key] / 100) * 100;
 	}
+	console.log(Object.entries(newObj));
 
 	let resultarray = Object.entries(newObj).sort((a, b) => {
 		if (a[1] > b[1]) {
@@ -108,6 +109,30 @@ emails4 = [
 	"w@rain.ifmo.ru",
 	"x@rain.ifmo.ru",
 	"y@rain.ifmo.ru",
+	"b@boogersifmo.ru",
+	"c@boogersifmo.ru",
+	"d@boogersifmo.ru",
+	"e@boogersifmo.ru",
+	"f@boogersifmo.ru",
+	"g@boogersifmo.ru",
+	"h@boogersifmo.ru",
+	"i@boogersifmo.ru",
+	"j@boogersifmo.ru",
+	"k@boogersifmo.ru",
+	"l@boogersifmo.ru",
+	"m@boogersifmo.ru",
+	"n@boogersifmo.ru",
+	"o@boogersifmo.ru",
+	"p@boogersifmo.ru",
+	"q@boogersifmo.ru",
+	"r@boogersifmo.ru",
+	"s@boogersifmo.ru",
+	"t@boogersifmo.ru",
+	"u@boogersifmo.ru",
+	"v@boogersifmo.ru",
+	"w@boogersifmo.ru",
+	"x@boogersifmo.ru",
+	"y@boogersifmo.ru",
 ];
 
 console.log(campusCup(emails4));
