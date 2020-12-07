@@ -22,7 +22,7 @@ function campusCup(arr) {
 		if (a[1] > b[1]) {
 			return -1;
 		} else if (a[1] < b[1]) {
-			return 11;
+			return 1;
 		} else if (a[0] > b[0]) {
 			return 1;
 		} else if (a[0] < b[0]) {
@@ -85,11 +85,11 @@ emails4 = [
 	// "n@mit.edu.ru",
 	// "o@mit.edu.ru",
 
-	"b@rain.ifmo.ru",
-	"c@rain.ifmo.ru",
-	"d@rain.ifmo.ru",
-	"e@rain.ifmo.ru",
-	"f@rain.ifmo.ru",
+	// "b@rain.ifmo.ru",
+	// "c@rain.ifmo.ru",
+	// "d@rain.ifmo.ru",
+	// "e@rain.ifmo.ru",
+	// "f@rain.ifmo.ru",
 	"g@rain.ifmo.ru",
 	"h@rain.ifmo.ru",
 	"i@rain.ifmo.ru",
