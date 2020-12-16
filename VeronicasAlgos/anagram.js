@@ -12,11 +12,22 @@ Note: Watch your runtime.  Make sure you’re not creating a n^3 runtime. Would 
 
 const anagramsArray = ["yo", "act", "flop", "tac", "foo", "cat", "oy", "olfp"];
 
-const anagramChecker = (array) => {
-	let wordObj = {};
-	let s = [];
-	array.forEach(w);
-	return s;
+const anaFunc = (arr) => {
+	let newAnagrams = [];
+	let newObj = {};
+
+	arr.forEach((w) => {
+		w = w.split("").sort().join("");
+		newAnagrams.push(w);
+	});
+
+	newAnagrams.forEach((w, idx) => {
+		if (!newObj[w]) {
+			newObj[w] = [];
+		}
+		newObj[w].push(arr[idx]);
+	});
+	return Object.values(newObj);
 };
 
-console.log(anagramChecker(anagramsArray));
+console.log(anaFunc(anagramsArray));
